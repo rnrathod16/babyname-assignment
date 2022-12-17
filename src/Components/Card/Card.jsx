@@ -28,7 +28,7 @@ const Card = ({ val }) => {
 
     return (
         <>
-            <div className="card mb-4 shadow-lg" style={{ width: '30%' }}>
+            <div className="card mb-4 shadow-lg">
                 <div className="card-header">
                     <h4 className="my-0 font-weight-normal text-center">{val.title}</h4>
                 </div>
